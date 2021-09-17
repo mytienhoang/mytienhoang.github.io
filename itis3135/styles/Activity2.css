@@ -1,6 +1,12 @@
+head {
+    background-color: #dededebe;
+    font-family:monospace;
+}
 body{
     width: 750px;
     margin: 0 auto;
+    background-color: #dededebe;
+    font-family:monospace;
 }
 table{
     border-collapse: collapse;

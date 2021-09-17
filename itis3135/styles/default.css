@@ -33,6 +33,11 @@ head {
     
 
 }
+table {
+    background-color: #dededebe;
+    font-family: monospace;
+
+}
 h1 {
     margin: 100px 100px 20px 100px;
     font-size:xx-large;
