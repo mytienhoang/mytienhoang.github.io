@@ -21,13 +21,14 @@ body {
     background-color: #dededebe;
     font-family:monospace;
     margin: 50px 50px 50px 50px;
-    font-size:x-large;
+    font-size: 150px;
+    text-align: center;
 
 }
 head {
     background-color: #dededebe;
     font-family: monospace;
-    font-size:x-large;
+    font-size:300px;
     font-weight: bold;
     margin: 50px 50px 50px 50px;
     text-align: center;
@@ -41,13 +42,13 @@ table {
 }
 h1 {
     margin: 100px 100px 20px 100px;
-    font-size:xx-large;
+    font-size:350px;
     text-align: center;
 }
 h2 {
     background-color: #dededebe;
     font-family: monospace;
-    font-size:x-large;
+    font-size:300px;
     font-weight: bold;
     margin: 50px 50px 50px 50px;
     text-align: center;
@@ -55,5 +56,16 @@ h2 {
 }
 footer {
     color: #619196;
-    font-size: medium;
+    font-size:200px;
+    text-align:center;
+}
+button {
+    font-size: 100px;
+    background-color: #84B4C8;
+    text-align: center;
+    margin: 4px 3px;
+    cursor: pointer;
+    padding: 15px 32px;
+    font-family: monospace;
+
 }
