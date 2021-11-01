@@ -4,8 +4,8 @@
     <title>Mytien Hoang   ITIS-3135  </title>
     <meta name="description" content="3135 Activity">
     <meta charset="UTF-8">
-    <link href="itis3135/styles/default.css"  rel="stylesheet" type="text/css" > 
-    <script src="itis3135/scripts/arrays.js"></script>    
+    <link href="styles/default.css"  rel="stylesheet" type="text/css" > 
+    
 </head>
 <body>
     <header>
@@ -37,10 +37,29 @@
     </nav>
     
     <main>
+        <p>Pick an Employee</p>
         
+        <select type="button" id="pickOneEmployee" > 
+            <option value="Bob Sheryll">Bob Sheryll</option>
+            <option id="pickOneEmployee">Nate Walkins </option> 
+            <option id="pickOneEmployee">Jonathan Nguyen </option>
+            <option id="pickOneEmployee">Harry Potter</option>
+            <option id="pickOneEmployee">Carl Bourne</option>
+            <option id="pickOneEmployee">Matt Teal</option>
+            
+        </select>
+        <p>Input their salary</p>
+        <input type="text" placeholder="Ex 100000" id="theSalary" required>
+        <button type="button" onclick="displayResults()">Click to Display/Update Display</button>
+        <button type="button" onclick="addSalary()">Click to add Salary</button>
+        <button type="button" onclick="listOfEmployees()">Click to see table of Employees</button>
+
+        <div id="results"></div>
+        <div id="tableForResults"></div>
     
     </main>
     <footer>
+        <script src="scripts/arrays.js"></script>    
         <nav>
             <a href="https://webpages.uncc.edu/mhoang4/">Charlotte.edu</a>
             ||
@@ -56,10 +75,10 @@
         <p>Page Built by Mighty Hare Enterprises</p> 
         <p>
             <a href="https://validator.w3.org/check?uri=referer">
-                <img src="itis3135/images/html_validation.png" width = "90" height = "30" alt ="Link to HTML Validator">
+                <img src="images/html_validation.png" width = "90" height = "30" alt ="Link to HTML Validator">
             </a>
             <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img src="itis3135/images/css_validation.png" width = "90" height = "30" alt ="Link to CSS Validator">
+                <img src="images/css_validation.png" width = "90" height = "30" alt ="Link to CSS Validator">
             </a>
             
         </p>
