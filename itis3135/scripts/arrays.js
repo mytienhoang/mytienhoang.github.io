@@ -24,7 +24,7 @@ function addSalary() {
     for (var i = 0; i < peoples.length; i++) {
         if (peoples[i] == chosenPerson) {
             salaries[i] = salary;
-            alert(chosenPerson + "'s Salary is now " + salary);
+            
         }
     }
     alert(chosenPerson + "'s Salary is now " + salary);
