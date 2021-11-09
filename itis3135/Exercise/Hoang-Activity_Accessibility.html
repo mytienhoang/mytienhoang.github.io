@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="Hoang-Activity_Accessibility.css">
+  <title>Test For Accessibility</title>
+
+</head>
+
+<body>
+  <header>
+    <h1>Candle Delight</h1>
+  </header>
+  <main>
+
+    <table class="center">
+
+      <caption></caption>
+      <thead>
+        <tr>
+          <!-- identify table headers <th> with scope attribute -->
+          <th >TYPE</th>
+          <th >PRODUCT</th>
+          <th >FEATURES</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <th>
+            Birthday Candles
+          </th>
+          <td>
+            <img
+              alt="Birthday Candles Image"  width = "90" height = "100" src="images/Birthday-Candles.jpg" >
+          </td>
+          <td>
+            <ul>
+              <li>1. Comes in a range of fun, vibrant colors. </li>
+              <li>2. Small and slender forms allow you to add as many or as few of them to a desert as you desire.</li>
+              <li>3. Offers a way to personalize customers' deserts on birthdays and anniversaries </li>
+            </ul>
+          </td>   
+  
+        </tr>
+
+        <tr>
+            <th>Votives</th>
+            <td>
+              <img 
+              alt="Votive Candles Image" width = "90" height = "100" src="images/voltives.jpeg" >
+            </td>
+            <td>
+              <ul>
+                <li>1. Inexpensive and easy to use</li>
+                <li>2. Bigger than tea lights to provide longer burn times, making them better for longer events</li>
+              </ul>
+            </td>
+        </tr>
+          <tr>
+              <th>Taper Candles</th>
+              <td>
+                <img 
+                alt="Taper Candles Image" width = "90" height = "100" src="images/taper-candles.jpg">
+              </td>
+              <td>
+                <ul>
+                  <li>1. Commonly known as window candles</li>
+                  <li>2. Long, slender constructions add dimension to table tops</li>
+                </ul>
+              </td>
+            </tr>
+      </tbody>
+    </table>
+     <!--Add the form here-->
+     <h2>Enter your name and phone number to win a gift! </h2>
+     <form action=”#”>
+       <h4>Please enter your name</h4>
+       <input type="text" id="name">
+       <h4>Please enter your phone number</h4>
+       <input type="text" id="phoneNumber" required>
+       <button type="submit">Submit</button>
+     </form>
+    
+   
+    <div class="whitespace"></div>
+    <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
+    <div class="whitespace"></div>
+
+    <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
+      color and background color passes WCAG standard!</a>
+  </main>
+
+  <footer>
+    <p>Page Built by Mighty Hare Enterprises</p> 
+        <p>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="images/html_validation.png" width = "90" height = "30" alt ="Link to HTML Validator">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="images/css_validation.png" width = "90" height = "30" alt ="Link to CSS Validator">
+            </a>
+            
+        </p>
+
+  </footer>
+</body>
+</html> 
